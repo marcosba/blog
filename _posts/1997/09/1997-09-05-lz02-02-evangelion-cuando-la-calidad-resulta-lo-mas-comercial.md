@@ -1,7 +1,7 @@
 ---
 title: "Evangelion: Cuando la calidad resulta lo mas comercial"
 date: "1997-09-05"
-id "18"
+id: "18"
 categories: 
   - "lazer-2"
   - "old-news"
