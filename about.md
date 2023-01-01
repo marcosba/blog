@@ -2,17 +2,15 @@
 title: Colophon
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Hi everyone, my name is Marcos and I am an IT professional. I have always been fascinated by technology and how it can make our lives easier and more efficient. In my free time, I enjoy playing video games and exploring the latest technology trends. I believe that technology has the power to bring people together and make the world a better place.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Hi everyone, my name is Marcos and I am an IT professional. I have always been fascinated by technology and how it can make our lives easier and more efficient.
 
-If you have a question about him or else, just send a letter to him.
+In my free time, I enjoy playing video games and exploring the latest technology trends. I have a passion for gaming and love trying out new games and consoles. I also like to stay up to date on the latest gadgets and tech news.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
-
-**may u needs ✨**
+I believe that technology has the power to bring people together and make the world a better place. That's why I am always looking for ways to use my skills and knowledge to help others and make a positive impact.
 
 - {{ site.author.email }}
-- github.com/{{ site.author.github }}
+- twitter.com/{{ site.author.twitter }}
