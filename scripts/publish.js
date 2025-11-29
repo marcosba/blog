@@ -41,10 +41,6 @@ async function publish() {
   console.log('Pushed to GitHub.');
 
   // 4. Deploy to Netlify
-  console.log('\nDeploying to Netlify...');
-  runCommand('netlify deploy --prod --dir=dist');
-  console.log('Deployed to Netlify.');
-
   console.log('\nPublish process completed successfully!');
   console.log('Your site should be deploying on Netlify shortly.');
 }
