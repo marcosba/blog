@@ -30,7 +30,8 @@ minify = true
   # Enable social icons
   enableSocial = true
   # Author
-  author = "Marco"
+  [params.author]
+    name = "Marco"
   # Description
   description = "Un blog sobre tecnología, programación y más."
   # Keywords
