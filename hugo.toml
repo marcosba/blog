@@ -42,6 +42,9 @@ minify = true
   # Main sections
   mainSections = ["posts"]
 
+  [params.homepage]
+    layout = "posts"
+
   
 
 [outputs]
