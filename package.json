@@ -16,7 +16,8 @@
     "generate-graph-data": "node scripts/generate-graph-data.js",
     "check-images": "node scripts/check-missing-images.js",
     "version": "node scripts/get-version.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "new:post": "node scripts/new-post.js"
   },
   "keywords": [
     "astro",
@@ -29,7 +30,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.5",
     "@astrojs/mdx": "^4.3.10",
-    "@astrojs/rss": "^4.0.13",
+    "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
     "@astrojs/tailwind": "^6.0.2",
     "@fontsource/inter": "^5.2.8",
