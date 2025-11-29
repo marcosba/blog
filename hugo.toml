@@ -101,12 +101,7 @@ minify = true
     #   name = "twitter"
     #   url = "https://twitter.com/tucuenta"
 
-  [params.analytics.google]
-    SiteVerificationTag = "XYZ..."
-  [params.analytics.bing]
-    SiteVerificationTag = "XYZ..."
-  [params.analytics.yandex]
-    SiteVerificationTag = "XYZ..."
+  
 
   [params.cover]
     hidden = true # hide everywhere but not in structured data
