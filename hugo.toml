@@ -35,6 +35,8 @@ minify = true
   description = "Un blog sobre tecnología, programación y más."
   # Keywords
   keywords = ["blog", "tecnologia", "programacion"]
+  defaultFeaturedImage = ""
+  defaultBackgroundImage = ""
 
   # Main sections
   mainSections = ["posts"]
