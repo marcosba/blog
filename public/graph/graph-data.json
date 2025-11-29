@@ -15,6 +15,13 @@
       "connections": 6
     },
     {
+      "id": "my-first-blog-post",
+      "type": "post",
+      "title": "My First Blog Post",
+      "slug": "my-first-blog-post",
+      "connections": 0
+    },
+    {
       "id": "obsidian-embeds-demo",
       "type": "post",
       "title": "Obsidian Embeds Demo",
@@ -119,9 +126,9 @@
     }
   ],
   "metadata": {
-    "totalPosts": 5,
+    "totalPosts": 6,
     "totalConnections": 16,
     "maxNodesApplied": false,
-    "originalNodeCount": 5
+    "originalNodeCount": 6
   }
 }

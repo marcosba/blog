@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
-import rss from '@astrojs/rss';
+
 import { remarkInternalLinks, remarkFolderImages, remarkImageCaptions } from './src/utils/internallinks.ts';
 import remarkCallouts from './src/utils/remark-callouts.ts';
 import remarkImageGrids from './src/utils/remark-image-grids.ts';
@@ -36,8 +36,6 @@ export default defineConfig({
     enabled: true
   },
   redirects: (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'build') ? {
-  '/about-me': '/about',
-  '/about-us': '/about',
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
@@ -67,23 +65,7 @@ image: {
     tailwind(),
     sitemap(),
     mdx(),
-    rss({
-      // Configure your RSS feed here
-      // For example:
-      title: siteConfig.title,
-      description: siteConfig.description,
-      site: siteConfig.site,
-      stylesheet: '/rss/styles.xsl',
-      customData: `<language>${siteConfig.language}</language>`,
-      // All your posts usually come from a content collection or a glob import
-      // For astro-modular, posts are likely in src/content/posts
-      items: import.meta.glob('./src/content/posts/**/*.md'),
-      // (optional) inject custom xml
-      // <atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml" />
-      // This is usually handled by the default template, but can be customized
-      // For more advanced usage, you might need to create a custom feed function
-      // For now, we'll use the default glob import
-    }),
+    
     swup({
       theme: false,
       animationClass: 'transition-swup-',
