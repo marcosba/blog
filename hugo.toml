@@ -42,26 +42,6 @@ minify = true
   # Main sections
   mainSections = ["posts"]
 
-  # Social links
-  [[params.social]]
-    name = "GitHub"
-    icon = "github"
-    url = "https://github.com/marcosba" # Replace with your GitHub URL
-  # [[params.social]]
-  #   name = "Twitter"
-  #   icon = "twitter"
-  #   url = "https://twitter.com/your_twitter_handle"
-
-  # Footer
-  [params.footer]
-    showPoweredBy = true
-    showThemeAttribution = true
-    showCopyright = true
-    showSocial = true
-    showNewContent = true
-    showBackToTop = true
-    showFooterLinks = true
-
 [outputs]
   home = ["HTML", "RSS", "JSON"] # is necessary for search
 
